@@ -1,6 +1,6 @@
 services:
   backend:
-    image: ghcr.io/9paws/ninepaws-backend:v1.0.0-e8731b3
+    image: ghcr.io/9paws/ninepaws-backend:v1.0.0-90df212
     container_name: ninepaws-backend
     restart: unless-stopped
     depends_on:
